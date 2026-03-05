@@ -6,20 +6,24 @@
     <FlexLayout Direction="Row" 
                     Wrap="Wrap" 
                     JustifyContent="Center" 
-                    Padding="10">
-        <Label Text="1" FlexLayout.Basis="33%" BackgroundColor="WhiteSmoke" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
-        <Label Text="2" FlexLayout.Basis="33%" BackgroundColor="Magenta" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
-        <Label Text="3" FlexLayout.Basis="33%" BackgroundColor="Wheat" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
+                    Padding="10"
+                AlignContent="Start"
+                AlignItems="Start"
+               
+               >
+        <Label Text="1" FlexLayout.Basis="33%" BackgroundColor="Blue" WidthRequest="100" HeightRequest="100"  Margin="5"/>
+        <Label Text="2" FlexLayout.Basis="33%" BackgroundColor="Magenta" WidthRequest="100" HeightRequest="100" Margin="5"/>
+        <Label Text="3" FlexLayout.Basis="33%" BackgroundColor="Wheat" WidthRequest="100" HeightRequest="100"   Margin="5"/>
 
-        <Label Text="4" FlexLayout.Basis="33%" BackgroundColor="Aquamarine" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
-        <Label Text="5" FlexLayout.Basis="33%" BackgroundColor="WhiteSmoke" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
-        <Label Text="6" FlexLayout.Basis="33%" BackgroundColor="HotPink" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
+        <Label Text="4" FlexLayout.Basis="33%" BackgroundColor="Aquamarine" WidthRequest="100" HeightRequest="100"  Margin="5"/>
+        <Label Text="5" FlexLayout.Basis="33%" BackgroundColor="Red" WidthRequest="100" HeightRequest="100" Margin="5"/>
+        <Label Text="6" FlexLayout.Basis="33%" BackgroundColor="HotPink" WidthRequest="100" HeightRequest="100"  Margin="5"/>
 
-        <Label Text="7" FlexLayout.Basis="33%" BackgroundColor="Tomato" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
-        <Label Text="8" FlexLayout.Basis="33%" BackgroundColor="LightCoral" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
-        <Label Text="9" FlexLayout.Basis="33%" BackgroundColor="LightSalmon" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
+        <Label Text="7" FlexLayout.Basis="33%" BackgroundColor="Tomato" WidthRequest="100" HeightRequest="100"  Margin="5"/>
+        <Label Text="8" FlexLayout.Basis="33%" BackgroundColor="LightCoral" WidthRequest="100" HeightRequest="100"   Margin="5"/>
+        <Label Text="9" FlexLayout.Basis="33%" BackgroundColor="LightSalmon" WidthRequest="100"  HeightRequest="100" Margin="5"/>
 
-        <Label Text="0" FlexLayout.Basis="33%" BackgroundColor="Gold" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
+        <Label Text="0" FlexLayout.Basis="33%" BackgroundColor="Gold" WidthRequest="100" HeightRequest="100" Margin="5"/>
 
 
     </FlexLayout>
