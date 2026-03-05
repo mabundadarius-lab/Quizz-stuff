@@ -3,33 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Flex_layout_stuff.MainPage"
              Shell.NavBarIsVisible="False">
+    <FlexLayout Direction="Row" 
+                    Wrap="Wrap" 
+                    JustifyContent="Center" 
+                    Padding="10">
+        <Label Text="1" FlexLayout.Basis="33%" BackgroundColor="WhiteSmoke" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
+        <Label Text="2" FlexLayout.Basis="33%" BackgroundColor="Magenta" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
+        <Label Text="3" FlexLayout.Basis="33%" BackgroundColor="Wheat" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
 
-    <!-- Flex Layout Adjust according to the screen, automatically.-->
+        <Label Text="4" FlexLayout.Basis="33%" BackgroundColor="Aquamarine" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
+        <Label Text="5" FlexLayout.Basis="33%" BackgroundColor="WhiteSmoke" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
+        <Label Text="6" FlexLayout.Basis="33%" BackgroundColor="HotPink" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
 
-    <FlexLayout Direction="Column"  Wrap="Wrap" JustifyContent="Start"  BackgroundColor="DarkOliveGreen">
-        <Label Text="1" BackgroundColor="BlueViolet" WidthRequest="100" HeightRequest="100" Margin="5"
-            />
-        <Label Text="2" BackgroundColor="Red" WidthRequest="100" HeightRequest="100" Margin="5"
-            />
-        <Label Text="3" BackgroundColor="Maroon" WidthRequest="100" HeightRequest="100" Margin="5"
-            />
-        <Label Text="4" BackgroundColor="RosyBrown" WidthRequest="100" HeightRequest="100" Margin="5"
-            />
-        <Label Text="5" BackgroundColor="DeepPink" WidthRequest="100" HeightRequest="100" Margin="5"
-            />
-        <Label Text="6" BackgroundColor="IndianRed" WidthRequest="100" HeightRequest="100" Margin="5"
-            />
-        <Label Text="7" BackgroundColor="SandyBrown" WidthRequest="100" HeightRequest="100" Margin="5"
-            />
-        <Label Text="8" BackgroundColor="OrangeRed" WidthRequest="100" HeightRequest="100" Margin="5"
-            />
-        <Label Text="9" BackgroundColor="LightSeaGreen" WidthRequest="100" HeightRequest="100" Margin="5"
-            />
-        <Label Text="0" BackgroundColor="BurlyWood" WidthRequest="100" HeightRequest="100" Margin="5"
-            />
-       
+        <Label Text="7" FlexLayout.Basis="33%" BackgroundColor="Tomato" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
+        <Label Text="8" FlexLayout.Basis="33%" BackgroundColor="LightCoral" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
+        <Label Text="9" FlexLayout.Basis="33%" BackgroundColor="LightSalmon" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
+
+        <Label Text="0" FlexLayout.Basis="33%" BackgroundColor="Gold" HeightRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="2"/>
+
+
     </FlexLayout>
-    
-    
 
 </ContentPage>
