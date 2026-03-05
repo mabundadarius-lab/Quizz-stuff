@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Flex_layout_stuff.MainPage"
+             Shell.NavBarIsVisible="False">
+
+    <!-- Flex Layout Adjust according to the screen, automatically.-->
+
+    <FlexLayout Direction="Column"  Wrap="Wrap" JustifyContent="Start"  BackgroundColor="DarkOliveGreen">
+        <Label Text="1" BackgroundColor="BlueViolet" WidthRequest="100" HeightRequest="100" Margin="5"
+            />
+        <Label Text="2" BackgroundColor="Red" WidthRequest="100" HeightRequest="100" Margin="5"
+            />
+        <Label Text="3" BackgroundColor="Maroon" WidthRequest="100" HeightRequest="100" Margin="5"
+            />
+        <Label Text="4" BackgroundColor="RosyBrown" WidthRequest="100" HeightRequest="100" Margin="5"
+            />
+        <Label Text="5" BackgroundColor="DeepPink" WidthRequest="100" HeightRequest="100" Margin="5"
+            />
+        <Label Text="6" BackgroundColor="IndianRed" WidthRequest="100" HeightRequest="100" Margin="5"
+            />
+        <Label Text="7" BackgroundColor="SandyBrown" WidthRequest="100" HeightRequest="100" Margin="5"
+            />
+        <Label Text="8" BackgroundColor="OrangeRed" WidthRequest="100" HeightRequest="100" Margin="5"
+            />
+        <Label Text="9" BackgroundColor="LightSeaGreen" WidthRequest="100" HeightRequest="100" Margin="5"
+            />
+        <Label Text="0" BackgroundColor="BurlyWood" WidthRequest="100" HeightRequest="100" Margin="5"
+            />
+       
+    </FlexLayout>
+    
+    
+
+</ContentPage>
